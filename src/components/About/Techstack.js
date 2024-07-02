@@ -8,14 +8,13 @@ import {
   DiGit,
   DiJava,
   DiHtml5, 
-  DiCss3
+  DiCss3,
 } from "react-icons/di";
 import {
   SiRedis,
   SiC, 
   SiDjango, 
   SiAmazonaws, 
-  SiNotion,
   SiPostgresql,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
@@ -23,9 +22,6 @@ import { TbBrandGolang } from "react-icons/tb";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNotion />
-      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiC />
       </Col>

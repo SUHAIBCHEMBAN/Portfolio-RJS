@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/me.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,19 +19,17 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            I have fallen in love with programming and have learned quite a bit along the way, I think... 🤷‍♂️
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Python and django</b>
+                <b className="purple"> Python and Django</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My fields of interest include building new &nbsp;
               <i>
-                <b className="purple">Web application and Products </b> and
-                also in areas related to{" "}
+                <b className="purple"> web applications and products, </b> particularly those related to {" "}
                 <b className="purple">
                   Python.
                 </b>
@@ -39,22 +37,31 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">django</b> and
+              using <b className="purple">Django</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern Javascript 
                 </b>
               </i>
-              &nbsp; like
+              {/* &nbsp; 
               <i>
                 <b className="purple"> React.js </b>
-              </i>
+              </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img 
+                src={myImg} 
+                alt="avatar" 
+                style={{ 
+                    borderRadius: '50%', 
+                    width: '350px', // Adjust size as needed
+                    height: '350px', // Adjust size as needed
+                    objectFit: 'cover' 
+                }} 
+            />
             </Tilt>
           </Col>
         </Row>
