@@ -8,7 +8,6 @@ function Type() {
         strings: [
           "Python django + rest Developer",
           "Backend Developer",
-          "Intern",
         ],
         autoStart: true,
         loop: true,
