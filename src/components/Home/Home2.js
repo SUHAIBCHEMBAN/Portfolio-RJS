@@ -57,8 +57,8 @@ function Home2() {
                 alt="avatar" 
                 style={{ 
                     borderRadius: '50%', 
-                    width: '350px', // Adjust size as needed
-                    height: '350px', // Adjust size as needed
+                    width: '250px', // Adjust size as needed
+                    height: '250px', // Adjust size as needed
                     objectFit: 'cover' 
                 }} 
             />
