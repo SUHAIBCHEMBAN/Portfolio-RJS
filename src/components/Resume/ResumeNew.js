@@ -1,3 +1,4 @@
+// export default ResumeNew;
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
@@ -30,7 +31,7 @@ function ResumeNew() {
           <Button
             variant="primary"
             href={pdf}
-            target="_blank"
+            download="Suhaib's Resume.pdf"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
@@ -43,3 +44,5 @@ function ResumeNew() {
 }
 
 export default ResumeNew;
+
+
